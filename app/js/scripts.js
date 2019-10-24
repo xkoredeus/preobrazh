@@ -54,7 +54,9 @@ $(function() {
     smartSpeed: 700,
     autoplay:false,
     autoplayTimeout:6000,
-
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
     autoplayHoverPause:false,
   }).on('changed.owl.carousel', syncPosition);
 
@@ -117,6 +119,7 @@ $(function() {
     var number = el.item.index;
     $owl_slider = sync1.data('owl.carousel');
     $owl_slider.to(number, 100, true);
+    $('.stage__bot-slider').slick('reinit');
   });
   $('.header__hamb').on('click', function(e) {
       e.preventDefault();
@@ -140,7 +143,12 @@ $(function() {
         scrollTop: $('#about').offset().top},
         'slow');
   });
-  
+  $('.stage__bot-slider').slick({
+    slidesToShow: 1,
+    infinite: false,
+    prevArrow:"<button type='button' class='slick-prev'><svg width='14' height='12' viewBox='0 0 14 12' xmlns='http://www.w3.org/2000/svg'><path d='M13 6L1 6M1 6L5.8 11M1 6L5.8 1' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg></button>",
+    nextArrow:"<button type='button' class='slick-next'><svg width='14' height='12' viewBox='0 0 14 12' xmlns='http://www.w3.org/2000/svg'><path d='M1 6L13 6M13 6L8.2 11M13 6L8.2 1' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg></button>"
+  });
   //Закрываем AjaxForm popup после успешной отправки
   // $(document).on('af_complete', function(event,res) {
   //   if(res.success) parent.$.fancybox.close();

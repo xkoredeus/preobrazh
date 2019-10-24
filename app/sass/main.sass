@@ -475,6 +475,41 @@ input[type="number"]
       left: 0
     button.owl-next
       right: 0
+.slick
+  &-next,
+  &-prev
+    width: 31px
+    height: 31px
+    position: absolute
+    // bottom: 50%
+    // margin-bottom: -15.5px
+    border-radius: 5px
+    padding: 0
+    background: #fff
+    border: 1.5px solid #fff
+    display: flex
+    justify-content: center
+    align-items: center
+    +ease
+    z-index: 1
+    &::before
+      display: none
+    svg
+      max-width: 17px
+      max-height: 17px
+      height: auto
+      fill: none
+      stroke: #484848
+      +ease
+    &:hover
+      background: $yel
+      border-color: $yel
+      svg
+        stroke: #fff
+  &-prev
+    left: 10px
+  &-next
+    right: 10px
 .section
   &_inner
     padding: 30px 0
@@ -760,14 +795,9 @@ input[type="number"]
     &-img
       height: 272px
       +cv
-      // .owl
-      //   &-nav
-      //     button
-      //       &.owl
-      //         &-prev
-      //           left: 10px
-      //         &-next
-      //           right: 10px
+    &-slider
+      &-wrp
+        position: relative
 .contact
   .section__ttl_dec
     margin-bottom: 25px
