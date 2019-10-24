@@ -56,10 +56,6 @@ $(function() {
     autoplayTimeout:6000,
 
     autoplayHoverPause:false,
-    mouseDrag: false,
-    mouseDrag: false,
-    touchDrag: false,
-    pullDrag: false,
   }).on('changed.owl.carousel', syncPosition);
 
   function syncPosition(el) {
@@ -121,17 +117,6 @@ $(function() {
     var number = el.item.index;
     $owl_slider = sync1.data('owl.carousel');
     $owl_slider.to(number, 100, true);
-  });
-  $('.stage__bot-in').owlCarousel({
-      nav: true,
-      items: 1,
-      loop: false,
-      dots: false,
-      smartSpeed: 800,
-      mouseDrag: false,
-      touchDrag: false,
-      pullDrag: false,
-      navText: ["<svg width='14' height='12' viewBox='0 0 14 12' xmlns='http://www.w3.org/2000/svg'><path d='M13 6L1 6M1 6L5.8 11M1 6L5.8 1' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>", "<svg width='14' height='12' viewBox='0 0 14 12' xmlns='http://www.w3.org/2000/svg'><path d='M1 6L13 6M13 6L8.2 11M13 6L8.2 1' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>"],
   });
   $('.header__hamb').on('click', function(e) {
       e.preventDefault();
