@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#6232ad">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>New Project</title>
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section class="banner">
+    <header class="header">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <a href="tel:78469723611" class="header__tel">+7 (846) 972-36-11</a>
+          <div class="header__hamb">
+            <div class="header__hamb-img header__hamb-img_1">
+              <svg width="23" height="20" viewBox="0 0 20 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H20V2H0V0Z"/>
+                <path d="M0 7H20V9H0V7Z"/>
+                <path d="M0 14H20V16H0V14Z"/>
+              </svg>
+            </div>
+            <div class="header__hamb-img header__hamb-img_2">
+              <svg width="20" height="20" viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.41421 0L15.5563 14.1421L14.1421 15.5563L0 1.41421L1.41421 0Z"/>
+                <path d="M3.57628e-07 14.1421L14.1421 2.38419e-07L15.5563 1.41421L1.41421 15.5563L3.57628e-07 14.1421Z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="header__nav-wrp">
+            <nav class="header__nav">
+              <a href="#about" class="header__nav-link">О проекте</a>
+              <a href="#map" class="header__nav-link active">Расположение</a>
+              <a href="#test" class="header__nav-link">Преимущества</a>
+              <a href="#plan" class="header__nav-link">Планировки</a>
+              <a href="#feed" class="header__nav-link">Оставить заявку</a>
+              <a href="#doc" class="header__nav-link">Документация</a>
+              <a href="#stage" class="header__nav-link">Ход строительства</a>
+              <a href="#contact" class="header__nav-link mb-5">Контакты</a>
+              <div class="red b">Перейти на полную версию сайта</div>
+              <a href="www.pd163.ru" class="und red">www.pd163.ru</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="offer d-flex flex-column align-items-center mt-3 tac">
+        <img src="img/main-logo.png" alt="main-logo.png" class="img-fluid mb-3">
+        <div class="offer__ttl section__ttl mb-2">Квартиры в клубном доме в Самаре</div>
+        <div class="mb-2">Уют премиум-класса в историческом центре Самары</div>
+        <div class="section__ttl offer__subttl mb-4">Всего 115 квартир</div>
+        <button type="button" data-fancybox data-src="#popup_call" class="btn offer__btn fancybox-call w-100">Заказать звонок</button>
+        <div class="offer__scroll mt-5">
+          <div class="offer__scroll-circle"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_inner about pb-0" id="about">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec yel">О проекте</div>
+      <div class="mb-5"><span class="b">Жилой комплекс «Преображенский Двор»</span> - это формат клубного дома бизнес-класса, где все направлено на создание целостной среды. В такой квартире захочется провести не какой-то отрезок времени, а всю жизнь!</div>
+    </div>
+    <div class="about__slider owl-carousel">
+      <div class="about__slider-item" style="background-image: url(img/about__slider-img_1.jpg)"></div>
+      <div class="about__slider-item" style="background-image: url(img/about__slider-img_2.jpg)"></div>
+      <div class="about__slider-item" style="background-image: url(img/about__slider-img_3.jpg)"></div>
+      <div class="about__slider-item" style="background-image: url(img/about__slider-img_4.jpg)"></div>
+    </div>
+  </section>
+  <section class="section_inner map pb-0" id="map">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec yel">Расположение</div>
+      <div class="mb-5">Жилой комплекс « преображенский Двор» находится на ул. Водников 33. В границах улиц Водников, Алексея Толстого, Крупской и Комсомольской. В 5 минутах ходьбы до набережной</div>
+    </div>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A922890fec5f804d006dadeb3971f26163792cba20ff45e081c263885b814658a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+  </section>
+  <section class="section_inner test" id="test">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec red">Преимущества</div>
+      <div class="row">
+        <div class="col-6 mb-3">
+          <div class="d-flex flex-column align-items-center tac">
+            <div class="test__img-wrp">
+              <div class="test__img" style="background-image: url(img/test__img_1.png)"></div>
+            </div>
+            <div class="test__ttl">Двор без машин</div>
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="d-flex flex-column align-items-center tac">
+            <div class="test__img-wrp">
+              <div class="test__img" style="background-image: url(img/test__img_2.png)"></div>
+            </div>
+            <div class="test__ttl">Видеонаблюдение<br> 24 часа</div>
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="d-flex flex-column align-items-center tac">
+            <div class="test__img-wrp">
+              <div class="test__img" style="background-image: url(img/test__img_3.png)"></div>
+            </div>
+            <div class="test__ttl">Рядом набережная </div>
+          </div>
+        </div>
+        <div class="col-6 mb-3">
+          <div class="d-flex flex-column align-items-center tac">
+            <div class="test__img-wrp">
+              <div class="test__img" style="background-image: url(img/test__img_4.png)"></div>
+            </div>
+            <div class="test__ttl">Подземный паркинг </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="d-flex flex-column align-items-center tac">
+            <div class="test__img-wrp">
+              <div class="test__img" style="background-image: url(img/test__img_5.png)"></div>
+            </div>
+            <div class="test__ttl">Современные инженерные системы </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="d-flex flex-column align-items-center tac">
+            <div class="test__img-wrp">
+              <div class="test__img" style="background-image: url(img/test__img_6.png)"></div>
+            </div>
+            <div class="test__ttl">Детская площадка с антитравматичным покрытием</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_inner plan" id="plan">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec yel">Планировки</div>
+      <div class="tabs">
+        <ul class="tabs__list">
+          <li class="active">1 секция</li>
+          <li>2 секция</li>
+          <li>3 секция</li>
+        </ul>
+        <div class="tabs__container">
+          <div class="tabs__content-item active-tab">
+            <div class="plan__slider owl-carousel">
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_1-1.jpg)"></div>
+                    <a href="img/plan__slider-img_1-1.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_1-2.jpg)"></div>
+                    <a href="img/plan__slider-img_1-2.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_1-3.jpg)"></div>
+                    <a href="img/plan__slider-img_1-3.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs__content-item">
+            <div class="plan__slider owl-carousel">
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_2-1.jpg)"></div>
+                    <a href="img/plan__slider-img_1-1.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_2-2.jpg)"></div>
+                    <a href="img/plan__slider-img_1-2.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_2-3.jpg)"></div>
+                    <a href="img/plan__slider-img_1-3.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs__content-item">
+            <div class="plan__slider owl-carousel">
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_3-1.jpg)"></div>
+                    <a href="img/plan__slider-img_1-1.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_3-2.jpg)"></div>
+                    <a href="img/plan__slider-img_1-2.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="plan__slider-item tac">
+                <div class="d-flex flex-column align-items-center">
+                  <div>50,07 м<sup>2</sup></div>
+                  <div>Высота потолков: 3 м</div>
+                  <div class="plan__slider-bot">
+                    <div class="plan__slider-img mb-3" style="background-image: url(img/plan__slider-img_3-3.jpg)"></div>
+                    <a href="img/plan__slider-img_1-3.jpg" data-fancybox="plan" class="d-flex align-items-center">
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.5 17.5L22 22" stroke="#383838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="10.5" cy="10.5" r="9.5" stroke="#383838" stroke-width="2"/>
+                      </svg>
+                      <span class="ml-2 black und">Увеличить</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section_inner" id="feed">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec yel">Оставить заявку</div>
+      <form action="" class="feed">
+        <input type="text" placeholder="Ваше имя" required="" class="mb-2 w-100">
+        <input type="tel" placeholder="Ваш телефон" required="" class="mb-2 w-100">
+        <input type="email" placeholder="Ваш e-mail" required="" class="mb-4 w-100">
+        <button type="submit" class="btn feed__btn mb-3 w-100">Отправить</button>
+        <div class="tac">Нажимая кнопку “Отправить” я даю согласие на <a href="#" class="und">обработку персональных данных</a> и ознакомлен с <a href="#" class="und">политикой конфиденциальности</a></div>
+      </form>
+    </div>
+  </section>
+  <section class="section_inner doc" id="doc">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec yel">Документация</div>
+      <div class="doc__list mb-3">
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_1.pdf" target="_blank" class="b">Аудиторское заключение от 29.03.2018_pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 14.08.2018 10:30:00</a> (6,8 МБ)
+            </div>
+            <a href="doc/doc_1.pdf" download="doc/doc_1.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_2.pdf" target="_blank" class="b"> Бухгалтерская отчетность за 2017 год_pdf Ответственное лицо- Директор Сашин Д.Е. Дата размещения: 24.10.2018 10:30:00</a> (820,5 КБ)
+            </div>
+            <a href="doc/doc_2.pdf" download="doc/doc_2.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_3.pdf" target="_blank" class="b">Бухгалтерская отчетность за 2018 год_pdf Ответственное лицо- Директор Сашин Д.Е. Дата размещения: 4.04.2019 10:00:00</a> (5,3 МБ)
+            </div>
+            <a href="doc/doc_3.pdf" download="doc/doc_3.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_4.pdf" target="_blank" class="b">Бухгалтерская отчетность за 9 месяцев 2018 _ pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 31.10.2018 13:00</a> (829,3 КБ)
+            </div>
+            <a href="doc/doc_4.pdf" download="doc/doc_4.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_5.pdf" target="_blank" class="b">Выписка из ЕГРН о земельном участке от 03.07.2018_pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 28.08.2018 10:00:00</a> (1,9 МБ)
+            </div>
+            <a href="doc/doc_5.pdf" download="doc/doc_5.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_6.pdf" target="_blank" class="b">Договор долевого участия на квартиры Ответственное лицо - Директор Сашин Д.Е. Дата размещения 16.10.2018 в 10:00</a> (185,0 КБ)
+            </div>
+            <a href="doc/doc_6.pdf" download="doc/doc_6.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_7.pdf" target="_blank" class="b">Договор долевого участия на квартиры_2 Ответственное лицо - Директор Сашин Д.Е. Дата размещения 23.11.2018 в 16:00</a> (709,6 КБ)
+            </div>
+            <a href="doc/doc_7.pdf" download="doc/doc_7.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_8.pdf" target="_blank" class="b">Договор долевого участия на машино-место Ответственное лицо - Директор Сашин Д.Е. Дата размещения 16.10.2018 в 10:00</a> (135,5 КБ)
+            </div>
+            <a href="doc/doc_8.pdf" download="doc/doc_8.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_9.pdf" target="_blank" class="b">Договор долевого участия на машино-место_2 Ответственное лицо - Директор Сашин Д.Е. Дата размещения 23.11.2018 в 16:00</a> (146,5 КБ)
+            </div>
+            <a href="doc/doc_9.pdf" download="doc/doc_9.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_10.pdf" target="_blank" class="b">Договор №01 купли-продажи земельного участка от 29.12.2015 г._pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 14.08.2018 10:15:00</a> (5,2 МБ)
+            </div>
+            <a href="doc/doc_10.pdf" download="doc/doc_10.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_11.pdf" target="_blank" class="b">Заключение о степени готовности проекта от 03.07.2019 Отв.лицо - Директор Сашин Д.Е. дата размещения - 3.07.2019</a> (492,2 КБ)
+            </div>
+            <a href="doc/doc_11.pdf" download="doc/doc_11.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_12.pdf" target="_blank" class="b">Заключение №00531208 о соответствии застройщика _ pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 20.08.2018 17:00</a> (318,8 КБ)
+            </div>
+            <a href="doc/doc_12.pdf" download="doc/doc_12.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_13.pdf" target="_blank" class="b">политика о перс данных.pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 27.11.2018 10:30:00</a> (2,1 МБ)
+            </div>
+            <a href="doc/doc_13.pdf" download="doc/doc_13.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_14.pdf" target="_blank" class="b">Положительное заключение негосударственной экспертизы от 14.03.2018г_pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 14.08.2018 10:35:00</a> (19,7 МБ)
+            </div>
+            <a href="doc/doc_14.pdf" download="doc/doc_14.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_15.pdf" target="_blank" class="b">Презентация ЖК Преображенский двор подъезды</a> (3,0 МБ)
+            </div>
+            <a href="doc/doc_15.pdf" download="doc/doc_15.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_16.pdf" target="_blank" class="b">Проектная декларация от 11.06.2019_pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 11.06.2019 10:30:00</a> (150,7 КБ)
+            </div>
+            <a href="doc/doc_16.pdf" download="doc/doc_16.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_17.pdf" target="_blank" class="b">Проектная декларация от 13.08.2018_pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 20.08.2018 10:30:00</a> (238,4 КБ)
+            </div>
+            <a href="doc/doc_17.pdf" download="doc/doc_17.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+        <!--item-->
+        <div class="doc__item">
+          <div class="doc__icon">
+            <svg width="31" height="35" viewBox="0 0 31 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.37498 0H20.961L30.8124 9.81315V32.8125C30.8124 34.0211 29.8325 35 28.625 35H2.37498C1.16745 35 0.1875 34.0211 0.1875 32.8125V2.18748C0.1875 0.978928 1.16756 0 2.37498 0Z" fill="#E2574C"/>
+              <path d="M30.7809 9.8436H23.1564C21.9488 9.8436 20.9689 8.86365 20.9689 7.65612V0.0217285L30.7809 9.8436Z" fill="#B53629"/>
+              <path d="M22.6072 16.5846C22.9737 16.5846 23.1531 16.2652 23.1531 15.9557C23.1531 15.6352 22.966 15.3257 22.6072 15.3257H20.5204C20.1124 15.3257 19.8849 15.6636 19.8849 16.0366V21.1652C19.8849 21.6224 20.1452 21.8761 20.4974 21.8761C20.8474 21.8761 21.1088 21.6224 21.1088 21.1652V19.7576H22.371C22.7626 19.7576 22.9584 19.4371 22.9584 19.1188C22.9584 18.8072 22.7626 18.4975 22.371 18.4975H21.1088V16.5846H22.6072ZM15.5536 15.3257H14.0267C13.6122 15.3257 13.3179 15.6101 13.3179 16.0322V21.1696C13.3179 21.6935 13.7412 21.8576 14.0442 21.8576H15.6465C17.5431 21.8576 18.7954 20.6096 18.7954 18.6835C18.7944 16.647 17.6154 15.3257 15.5536 15.3257ZM15.627 20.5911H14.6961V16.5923H15.5351C16.805 16.5923 17.3572 17.4444 17.3572 18.6201C17.3572 19.7204 16.8147 20.5911 15.627 20.5911ZM10.0335 15.3257H8.52086C8.09319 15.3257 7.85474 15.6078 7.85474 16.0366V21.1652C7.85474 21.6224 8.12816 21.8761 8.49562 21.8761C8.86309 21.8761 9.13651 21.6224 9.13651 21.1652V19.6678H10.0848C11.2551 19.6678 12.2209 18.8387 12.2209 17.5055C12.221 16.2007 11.2891 15.3257 10.0335 15.3257ZM10.0084 18.4648H9.13662V16.5299H10.0084C10.5465 16.5299 10.8888 16.9499 10.8888 17.4979C10.8877 18.0448 10.5465 18.4648 10.0084 18.4648Z" fill="white"/>
+            </svg>
+          </div>
+          <div class="doc__info">
+            <div class="mb-2 black">
+              <a href="doc/doc_18.pdf" target="_blank" class="b">Разрешение на строительство от 28.06.2018_pdf Ответственное лицо - Директор Сашин Д.Е., дата размещения - 14.08.2018 10:00:00</a> (1,1 МБ)
+            </div>
+            <a href="doc/doc_18.pdf" download="doc/doc_18.pdf" target="_blank" class="btn">Скачать</a>
+          </div>
+        </div>
+        <!--/item-->
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn doc__btn js-doc__toggle">
+          <span class="mr-2">посмотреть подробнее</span>
+          <svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1.5L5.5 6L10 1.5" stroke="white" stroke-width="2"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="section_inner stage pb-0" id="stage">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec yel">Ход строительства</div>
+      <div class="stage__top owl-carousel">
+        <div class="stage__top-item">Октябрь</div>
+        <div class="stage__top-item">Сентябрь</div>
+        <div class="stage__top-item">Август</div>
+        <div class="stage__top-item">Июль</div>
+        <div class="stage__top-item">Июнь</div>
+        <div class="stage__top-item">Май</div>
+        <div class="stage__top-item">Апрель</div>
+        <div class="stage__top-item">Март</div>
+        <div class="stage__top-item">Февраль</div>
+        <div class="stage__top-item">Январь</div>
+        <div class="stage__top-item">Декабрь</div>
+        <div class="stage__top-item">Ноябрь</div>
+        <div class="stage__top-item">Октябрь</div>
+        <div class="stage__top-item">Сентябрь</div>
+      </div>
+    </div>
+    <div class="stage__bot owl-carousel mt-3">
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Октябрь 2019</div>
+          <div class="mb-3">Ск. №1 кирпичная кладка 7-8 жилого этажа. Ск. №2 кирпичная кладка 4-5 жилого этажа. Ск. №3 кирпичная кладка 1,2 жилого этажа. 4 оконч-е бетонных работ. Устройство инж. систем 1 секции Отв.лицо - Директор Сашин Д.Е. дата размещения - 6.09.2019</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_14.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Сентябрь 2019</div>
+          <div class="mb-3">Ск. №1 кирпичная кладка 6-7 жилого этажа. Ск. №2 кирпичная кладка 3-4 жилого этажа. Ск. №3 и 4 окончание бетонных работ. Устройство инженерных систем паркинга. Отв.лицо - Директор Сашин Д.Е. дата размещения - 6.09.2019</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_13.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Август 2019</div>
+          <div class="mb-3">Ск. №1 кирпичная кладка 4 жилого этажа. Ск. №2 кирпичная кладка 3 жилого этажа. Ск. №3 и 4 армирование и бетонирование. Устройство инженерных систем паркинга. Отв.лицо - Директор Сашин Д.Е. дата размещения - 1.08.2019</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_12.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Июль 2019</div>
+          <div class="mb-3">Ск. №1 кирпичная кладка 3 жилого этажа. Ск. №2 кирпичная кладка 1 жилого этажа. Ск. №3 и 4 армирование и бетонирование. Устройство инженерных систем паркинга. Отв.лицо - Директор Сашин Д.Е. дата размещения - 2.07.2019</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_11.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Июнь 2019</div>
+          <div class="mb-3">Ск. №1 начало кладки стен первого этажа . Ск. №2 армирование и бетонирование стен и перекрытий технического этажа. Ск. №3 - армирование и бетонирование первого уровня паркинга. Гидроизоляция, армирование и бетонирование части фун.плиты 4 ск.</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_10.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Май 2019</div>
+          <div class="mb-3">В секции №1 начало кладки стен первого этажа В секции №2 армирование и бетонирование стен и перекрытий технического этажа В секции №3 - армирование и бетонирование первого уровня паркинга Отв.лицо - Директор Сашин Д.Е. дата размещения - 7.05.2019</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_9.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Апрель 2019</div>
+          <div class="mb-3">В секции №1,2 армирование и бетонирование колонн и стен второго уровня паркинга и технического этажа Ответст. лицо - Директор Сашин Д.Е. дата размещения - 3.04.2019 16:00</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_8.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Март 2019</div>
+          <div class="mb-3">В секции №1,2 армирование и бетонирование колонн и стен второго уровня паркинга и технического этажа. Ответст. лицо - Директор Сашин Д.Е. дата размещения - 4.03.2019 11:30</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_7.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Февраль 2019</div>
+          <div class="mb-3">Выполняются работы по разработке грунта под жилую секцию №3. Армирование стен и колонн паркинга в секции №1,2. Ответст. лицо - Директор Сашин Д.Е. дата размещения - 5.02.2019 10:30</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_6.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Январь 2019</div>
+          <div class="mb-3">Проводятся земляные работы, выемка грунта. Армирование и бетонирование фундаментной плиты. Ответст. лицо - Директор Сашин Д.Е. дата размещения - 9.01.2019 10:00</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_5.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Декабрь 2018</div>
+          <div class="mb-3">Выполняются мероприятия по возведению подпорной стены, бетонирование вертикальных конструкций Работы по устройству грунтовых анкеров и местная вертикальная планировка грунта. Работы по выносу электрических кабелей, вынос транзитной канализации.</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_4.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Ноябрь 2018</div>
+          <div class="mb-3">Выполняются мероприятия по возведению подпорной стены (по периметру котлована). Устройство монолитных обвязочных балок и местная вертикальная планировка грунта (разработка грунта, вывоз) Ответст. лицо - Директор Сашин Д.Е. дата 15.11.2018 в 13:30</div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_3.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Октябрь 2018</div>
+          <div class="mb-3">Выполняются мероприятия по возведению подпорной стены (по периметру котлована). Бурение скважин и изготовление арматурных каркасов для дальнейшего бетонирования. Ответст. лицо - Директор Сашин Д.Е. дата размещения - 19.10.2018 10:00
+          </div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_2.jpg)"></div>
+      </div>
+      <div class="stage__bot-item tac">
+        <div class="container">
+          <div class="b">Сентябрь 2018</div>
+          <div class="mb-3">Проведены работы по подготовке строительной площадки. Расчистка территории земельного участка, вывоз мусора, установка временного ограждения. Ответст. лицо - Директор Сашин Д.Е. дата размещения - 14.09.2018 14:00
+          </div>
+        </div>
+        <div class="stage__bot-img" style="background-image: url(img/stage__img_1.jpg)"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section_inner contact pb-0" id="contact">
+    <div class="container">
+      <div class="section__ttl section__ttl_dec yel">Контакты</div>
+      <div class="d-flex flex-column align-items-center tac">
+        <div>ОФИС ПРОДАЖ: г. Самара, ул. Дзержинского 46 Г, офис 6</div>
+        <div class="mb-3">Телефон: <a href="tel:78469723611">+ 7 (846) 972 -36-11</a></div>
+        <div class="d-flex justify-content-center align-items-center mb-3">
+          <a href="#" class="contact__soc-link mr-3">
+            <svg width="19" height="11" viewBox="0 0 19 11" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.8464 4.59887C17.1166 4.24445 17.3311 3.96008 17.4895 3.74554C18.6304 2.20641 19.1249 1.2232 18.9733 0.794545L18.9139 0.694153C18.8744 0.633853 18.7719 0.578478 18.6072 0.528354C18.4423 0.478267 18.2313 0.470263 17.9742 0.503329L15.1252 0.523719C15.0592 0.517055 14.9933 0.518612 14.9273 0.528354C14.8613 0.538531 14.8185 0.548744 14.7986 0.558486C14.7787 0.568699 14.7624 0.576884 14.7493 0.583548L14.7098 0.61368C14.6768 0.633635 14.6405 0.668874 14.601 0.719215C14.5614 0.76952 14.5282 0.827828 14.502 0.894973C14.1921 1.70463 13.8393 2.45757 13.4436 3.15354C13.1995 3.56847 12.9752 3.92843 12.771 4.2325C12.5665 4.53726 12.395 4.76137 12.2565 4.90497C12.1181 5.04882 11.9927 5.1645 11.8807 5.2512C11.7684 5.33852 11.6827 5.3751 11.6236 5.3618C11.5641 5.34851 11.508 5.33522 11.4553 5.32146C11.363 5.26141 11.2887 5.1796 11.2328 5.07566C11.1767 4.97219 11.1389 4.84159 11.119 4.68423C11.0993 4.52709 11.0875 4.39146 11.0844 4.27752C11.0809 4.16384 11.0827 4.00336 11.0895 3.79566C11.096 3.58818 11.0993 3.44791 11.0993 3.3741C11.0993 3.12008 11.1043 2.84393 11.1142 2.54605C11.124 2.24838 11.1323 2.01232 11.1389 1.8383C11.1454 1.66454 11.1487 1.48034 11.1487 1.28618C11.1487 1.09246 11.1371 0.939954 11.1139 0.829385C11.0908 0.719215 11.056 0.612159 11.0102 0.508218C10.9639 0.404711 10.8963 0.324238 10.8072 0.267523C10.7181 0.210555 10.6078 0.165574 10.4759 0.131856C10.1262 0.0513831 9.68101 0.00839401 9.14039 0.0013318C7.91366 -0.011525 7.12556 0.0686946 6.77606 0.242461C6.63758 0.31627 6.5122 0.416445 6.40016 0.543674C6.28134 0.691075 6.26496 0.771511 6.3508 0.784368C6.74658 0.844669 7.02666 0.988738 7.19155 1.21614L7.25098 1.33649C7.29706 1.42381 7.34317 1.57765 7.38946 1.79839C7.43558 2.01917 7.46527 2.26341 7.47858 2.53116C7.51156 3.01965 7.51156 3.4377 7.47858 3.78592C7.4456 4.1341 7.41437 4.40497 7.38468 4.59869C7.35495 4.79284 7.3104 4.94999 7.25119 5.07033C7.19177 5.19112 7.15225 5.26471 7.13237 5.29151C7.11249 5.31809 7.09611 5.33493 7.08301 5.34163C6.99717 5.37488 6.90827 5.39172 6.8159 5.39172C6.72349 5.39172 6.61142 5.34471 6.4795 5.25095C6.34755 5.15765 6.2106 5.02865 6.06905 4.86462C5.92707 4.70085 5.76738 4.47146 5.58914 4.17687C5.41111 3.88276 5.2263 3.53454 5.03517 3.13315L4.87702 2.8419C4.77808 2.65484 4.64284 2.38199 4.47138 2.02402C4.29992 1.66606 4.14809 1.31986 4.01638 0.984971C3.96352 0.844669 3.88443 0.737613 3.77896 0.663804L3.7296 0.633672C3.69662 0.607053 3.64376 0.578478 3.57124 0.548527C3.4985 0.518395 3.42294 0.496665 3.34363 0.483156L0.633099 0.503111C0.356132 0.503111 0.168286 0.566961 0.0693489 0.694153L0.0298025 0.754236C0.00981521 0.787917 0 0.841554 0 0.914928C0 0.988738 0.0198803 1.07895 0.0594266 1.18579C0.455212 2.12956 0.885546 3.03964 1.35036 3.91601C1.81542 4.79284 2.21931 5.49899 2.56223 6.03427C2.90516 6.56999 3.25465 7.07488 3.61093 7.55008C3.9672 8.02527 4.20287 8.32956 4.31819 8.46324C4.43351 8.59735 4.52417 8.69778 4.59016 8.76445L4.83744 9.00558C4.99558 9.16609 5.22822 9.35844 5.53492 9.58276C5.84159 9.80705 6.18105 10.0278 6.55392 10.2451C6.92636 10.4627 7.36016 10.6398 7.85467 10.7772C8.34921 10.9146 8.83062 10.9698 9.29893 10.9428H10.4366C10.6675 10.9228 10.8421 10.8495 10.9608 10.722L11.0003 10.6719C11.0265 10.632 11.0514 10.57 11.0746 10.4864C11.0975 10.4028 11.1094 10.3106 11.1094 10.2104C11.1025 9.92276 11.1242 9.66298 11.1736 9.43246C11.2229 9.20151 11.279 9.02774 11.3418 8.91029C11.4045 8.79346 11.4752 8.69462 11.5545 8.61415C11.6336 8.53368 11.6895 8.48558 11.7227 8.46874C11.7557 8.45234 11.7821 8.4406 11.8018 8.4335C11.9599 8.38005 12.1462 8.43195 12.3607 8.58909C12.575 8.74671 12.7762 8.94039 12.9643 9.17134C13.1521 9.4023 13.378 9.66139 13.6419 9.94931C13.9055 10.237 14.1364 10.4511 14.3343 10.5916L14.5322 10.7124C14.6641 10.7924 14.8354 10.866 15.0466 10.9332C15.2576 10.9999 15.4424 11.0168 15.6005 10.9833L18.133 10.9429C18.3836 10.9429 18.5782 10.9013 18.7167 10.8175C18.8552 10.7344 18.9376 10.6417 18.964 10.5416C18.9902 10.4412 18.9919 10.3279 18.969 10.2004C18.9459 10.0734 18.9227 9.98477 18.8998 9.93468C18.8767 9.88459 18.8552 9.84247 18.8353 9.80922C18.5055 9.20702 17.8757 8.46737 16.9459 7.59078L16.926 7.57083L16.9162 7.56065L16.9064 7.55087H16.8964C16.4742 7.1426 16.2073 6.86819 16.0952 6.72746C15.8908 6.46018 15.8445 6.1891 15.9567 5.91472C16.0354 5.70666 16.332 5.26826 16.8464 4.59887Z"/>
+            </svg>
+          </a>
+          <a href="#" class="contact__soc-link mr-3">
+            <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.31039 0H15.6898C16.9604 0 18 0.940705 18 2.31018V15.6898C18 17.0593 16.9604 18 15.6898 18H2.31039C1.03941 18 0 17.0593 0 15.6898V2.31018C0 0.940705 1.03941 0 2.31039 0ZM13.1123 1.99988C12.6666 1.99988 12.3023 2.36433 12.3023 2.81029V4.74992C12.3023 5.19569 12.6666 5.56033 13.1123 5.56033H15.1468C15.5926 5.56033 15.9572 5.19569 15.9572 4.74992V2.81029C15.9572 2.36433 15.5926 1.99988 15.1468 1.99988H13.1123ZM15.9657 7.61214H14.3815C14.5314 8.10153 14.6125 8.61993 14.6125 9.15626C14.6125 12.1503 12.1071 14.5772 9.01719 14.5772C5.92743 14.5772 3.42243 12.1503 3.42243 9.15626C3.42243 8.61956 3.50338 8.10134 3.65345 7.61214H2.00027V15.2156C2.00027 15.6091 2.32222 15.9312 2.71588 15.9312H15.2505C15.6441 15.9312 15.9661 15.6092 15.9661 15.2156V7.61214H15.9657ZM9.017 5.45812C7.02062 5.45812 5.402 7.02627 5.402 8.96091C5.402 10.8955 7.02062 12.4637 9.017 12.4637C11.0136 12.4637 12.6324 10.8955 12.6324 8.96091C12.6324 7.02627 11.0138 5.45812 9.017 5.45812Z"/>
+            </svg>
+          </a>
+          <a href="#" class="contact__soc-link">
+            <svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.15 1.34909C18.6075 0.366545 18.0188 0.185818 16.82 0.117091C15.6225 0.0343636 12.6112 0 10.0025 0C7.38875 0 4.37625 0.0343637 3.18 0.115818C1.98375 0.185818 1.39375 0.365273 0.84625 1.34909C0.2875 2.33036 0 4.02055 0 6.99618C0 6.99873 0 7 0 7C0 7.00255 0 7.00382 0 7.00382V7.00636C0 9.96927 0.2875 11.6722 0.84625 12.6433C1.39375 13.6258 1.9825 13.804 3.17875 13.8867C4.37625 13.958 7.38875 14 10.0025 14C12.6112 14 15.6225 13.958 16.8212 13.888C18.02 13.8053 18.6087 13.6271 19.1513 12.6445C19.715 11.6735 20 9.97054 20 7.00764C20 7.00764 20 7.00382 20 7.00127C20 7.00127 20 6.99873 20 6.99745C20 4.02055 19.715 2.33036 19.15 1.34909ZM7.5 10.8182V3.18182L13.75 7L7.5 10.8182Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A922890fec5f804d006dadeb3971f26163792cba20ff45e081c263885b814658a&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="tac">
+        <div class="b">Перейти на полную версию сайта</div>
+        <a href="www.pd163.ru" class="und">www.pd163.ru</a>
+      </div>
+    </div>
+  </footer>
+  <div id="popup_call" class="popup__container" style="display:none">
+    <div  class="popup__wrp popup_call__wrp">
+      <form action="[[~[[*id]]]]" method="post" class="popup">
+        <div class="popup__ttl">Оставьте заявку</div>
+        <input type="text" class="form__input" name="popup_call__name" placeholder="Ваше имя" required="">
+        <input type="tel" class="form__input" name="popup_call__tel" placeholder="Телефон" required="">
+        <input type="email" class="form__input" name="popup_call__email" placeholder="E-mail">
+        <input type="submit" class="btn" name="popup_call__sumbit" value="Отправить">
+        <div class="popup__policy">
+          Нажимая кнопку “Отправить” я даю согласие на <a href="#" class="und">обработку персональных данных</a> и ознакомлен с <a href="#" class="und">политикой конфиденциальности</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/libs.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
