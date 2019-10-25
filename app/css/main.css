@@ -1058,11 +1058,31 @@ input[type="number"] {
 }
 
 .about__slider .owl-nav button.owl-prev {
+  background-color: #7B232C;
   left: 15px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: -25px;
+}
+
+.about__slider .owl-nav button.owl-prev svg {
+  max-width: unset;
+  max-height: unset;
+  stroke: #fff;
 }
 
 .about__slider .owl-nav button.owl-next {
+  background-color: #7B232C;
   right: 15px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: -25px;
+}
+
+.about__slider .owl-nav button.owl-next svg {
+  max-width: unset;
+  max-height: unset;
+  stroke: #fff;
 }
 
 .map {
@@ -1183,11 +1203,31 @@ input[type="number"] {
 }
 
 .plan__slider .owl-nav button.owl-prev {
-  left: 15px;
+  background-color: #7B232C;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: -25px;
+}
+
+.plan__slider .owl-nav button.owl-prev svg {
+  max-width: unset;
+  max-height: unset;
+  stroke: #fff;
 }
 
 .plan__slider .owl-nav button.owl-next {
-  right: 15px;
+  background-color: #7B232C;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: -25px;
+}
+
+.plan__slider .owl-nav button.owl-next svg {
+  max-width: unset;
+  max-height: unset;
+  stroke: #fff;
 }
 
 .feed input {
